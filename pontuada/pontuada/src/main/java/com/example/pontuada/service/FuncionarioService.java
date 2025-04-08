@@ -37,6 +37,15 @@ public class FuncionarioService {
         funcionarioAtualizar.setNome(funcionario.getNome());
         funcionarioAtualizar.setEmail(funcionario.getEmail());
         funcionarioAtualizar.setSalario(funcionario.getSalario());
+        funcionarioAtualizar.setDataNascimento(funcionario.getDataNascimento());
+        funcionarioAtualizar.setEstadoCivil(funcionario.getEstadoCivil());
+        funcionarioAtualizar.setSalario(funcionario.getSalario());
+        funcionarioAtualizar.setSetor(funcionario.getSetor());
+        funcionarioAtualizar.setSexo(funcionario.getSexo());
+        funcionarioAtualizar.setEndereco(funcionario.getEndereco().getLogradouro());
+        funcionarioAtualizar.setEndereco(funcionario.getEndereco().getNumero());
+        funcionarioAtualizar.setEndereco(funcionario.getEndereco().getComplemento());
+        funcionarioAtualizar.setEndereco(funcionario.getEndereco().getCidade());
 
         return funcionarioRepository.save(funcionarioAtualizar);
     }
