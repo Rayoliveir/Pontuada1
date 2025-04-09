@@ -39,7 +39,6 @@ public class FuncionarioService {
         funcionarioAtualizar.setSalario(funcionario.getSalario());
         funcionarioAtualizar.setDataNascimento(funcionario.getDataNascimento());
         funcionarioAtualizar.setEstadoCivil(funcionario.getEstadoCivil());
-        funcionarioAtualizar.setSalario(funcionario.getSalario());
         funcionarioAtualizar.setSetor(funcionario.getSetor());
         funcionarioAtualizar.setSexo(funcionario.getSexo());
         funcionarioAtualizar.setEndereco(funcionario.getEndereco().getLogradouro());
